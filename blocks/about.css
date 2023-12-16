@@ -1,0 +1,127 @@
+.about{      
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+position: relative;
+padding-top: 20px;
+flex-wrap: wrap;
+}
+
+.about__texts{
+    margin-left: 155px;
+    max-width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about__title{
+max-width: 828px;
+max-height: 116px;
+font-family: Inter;
+font-size: 54px;
+font-weight: 900;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+}
+
+.about__quote{
+max-width: 736px;
+max-height: 68px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;  
+margin: 30px 0 10px;
+}
+
+.about__quote-origin{
+    max-width: 720px;
+    max-height: 34px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;   
+    color: #fff;
+    margin:0;
+}
+
+.about__description{
+max-width: 720px;
+max-height: 182px;    
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+margin: 35px 0 50px;
+}
+
+.about__grid_itens{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 47px 50px 95px;
+}
+ 
+.about__grid{
+    max-width: 1195px;
+    max-height: 442px;
+    box-sizing: border-box;
+    position: relative;   
+}
+
+@media screen and (max-width: 768px){
+    .about{
+    padding: 0;
+    
+    }
+
+    .about__texts{
+        width: 100%;
+        margin-left: 146px;
+    }
+    .about__grid{
+        max-width: 768px;
+        max-height: 1165px;
+    }
+
+    .about__grid_itens{
+    display: grid;
+    grid-template-columns: repeat( 2, 2fr);
+    gap: 10px;
+    margin: 47px 0px 100px 137px;
+    width: 768px;
+    grid-template-rows: auto;
+    }
+
+    .about__item{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .about{
+    width: 100%;
+    margin: 0;
+    }
+
+    .about__texts{
+        margin-left: 156px;
+    }
+
+    .about__grid_itens{
+        margin: 47px 0 95px 147px;
+    }
+}
