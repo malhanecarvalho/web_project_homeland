@@ -36,7 +36,7 @@ font-weight: 400;
 line-height: 34px;
 letter-spacing: 0em;
 text-align: left;
-color: #fff;  
+color: #fff;
 margin: 30px 0 10px;
 }
 
@@ -48,14 +48,14 @@ margin: 30px 0 10px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;
-    text-align: right;   
+    text-align: right;
     color: #fff;
     margin:0;
 }
 
 .about__description{
 max-width: 720px;
-max-height: 182px;    
+max-height: 182px;
 font-family: Inter;
 font-size: 16px;
 font-weight: 400;
