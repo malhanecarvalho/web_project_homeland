@@ -68,7 +68,7 @@ margin: 35px 0 50px;
 
 .about__grid_itens{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
     margin: 47px 50px 95px;
@@ -80,6 +80,36 @@ margin: 35px 0 50px;
     box-sizing: border-box;
     position: relative;   
 }
+
+@media screen and (max-width: 1250px) {
+    .about{
+        padding: 0;
+       
+       }
+   
+       .about__texts{
+           width: 100%;
+           margin-left: 146px;
+       }
+       .about__grid{
+           max-width: 1250px;
+           max-height: 1470px;
+       }
+   
+       .about__grid_itens{
+       display: grid;
+       grid-template-columns: repeat( 2, 2fr);
+       gap: 10px;
+       margin: 47px auto 170px;
+       width: 998px;
+       grid-template-rows: auto;
+       }
+   
+       .about__item{
+           width: 100%;
+           height: 100%;
+       }  
+    }
 
 @media screen and (max-width: 768px){
     .about{

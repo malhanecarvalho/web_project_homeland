@@ -64,30 +64,21 @@
 }
 
 .footer__button-item{
+    background-color: #0278fe;
     border: none;
     border-radius: 4px;
-    background-color:#0278FE;
+    padding: 16px 14px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #fff;
+    font-family: 'Inter';
+    transition: background-color 200ms;
+    text-align: center;
 }
 
 .footer__button :hover{
     background-color: #0063D2;
-}
-
-.footer__button{
-    background-color: #0278FE;
-    border: none;
-}
-
-
-.footer__button-text{
-    font-family: Inter;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
-    margin-top: 9px;
-   background-color: #0278FE;
 }
 
 .footer__copyright{
@@ -111,14 +102,14 @@
 
     .footer__itens {
     background-size: contain;
-   max-height: 487px;
+    max-height: 487px;
 }
 
 .footer__itens-text{
     width: 100%;
 }
 
-    .footer__title{
+ .footer__title{
     margin: 147px 0 0;
 }
 
